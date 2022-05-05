@@ -1,9 +1,19 @@
-body {background-color: blueviolet; color: white;}
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+body {font-family: 'Monofett', cursive;background-color:  black; padding: 0.5%;}
 nav {text-align: center; background-color: black;}
-header {text-align: center; background-color: black; color: white}
+header {text-align: center; background-color: black; color: white;}
 a:link{ color: white;}
 a:visited{color: white;}
 a:active{color: white;}
 a:hover{color: blue;}
 footer{text-align: center; background-color: gray;}
-h2{color: goldenrod;}
+.div1{color: goldenrod;}
+.darkness{color: darkred;}
+img{height: 25%;width: 25%;margin: 10%;}
+#Section2{color: darkslateblue;margin: 5%;}
+#Section3{color: rgb(169, 169, 169);text-align: center;}
+ul{list-style-type: square;}
+#footerc>a{color: black;}
+#footerc>a:hover{color: blue;}
+h3{color: black;text-align: center;}
+
