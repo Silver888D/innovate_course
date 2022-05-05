@@ -156,5 +156,3 @@ rand_num = (int)(input("pick a number...."))
 def rand_letter():
     print(alphabet[rand_num])
 rand_letter()
-
-
