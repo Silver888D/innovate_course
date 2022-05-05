@@ -1,7 +1,9 @@
 body {background-color: blueviolet; color: white;}
-nav {background-color: black;}
-header {background-color: black; color: white}
+nav {text-align: center; background-color: black;}
+header {text-align: center; background-color: black; color: white}
 a:link{ color: white;}
 a:visited{color: white;}
 a:active{color: white;}
 a:hover{color: blue;}
+footer{text-align: center; background-color: gray;}
+h2{color: goldenrod;}
