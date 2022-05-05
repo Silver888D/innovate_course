@@ -1,0 +1,7 @@
+body {background-color: blueviolet; color: white;}
+nav {background-color: black;}
+header {background-color: black; color: white}
+a:link{ color: white;}
+a:visited{color: white;}
+a:active{color: white;}
+a:hover{color: blue;}
