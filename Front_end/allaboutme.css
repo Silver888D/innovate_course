@@ -16,7 +16,7 @@ ul{list-style-type: square;}
 #footerc>a{color: black;}
 #footerc>a:hover{color: blue;}
 h3{color: black;text-align: center;}
-.container{display: flex;width:auto
+.container{display: flex;width:100%; padding: 0%; border: 0cm;
 }
 .div2{color: goldenrod; background: darkslateblue; display: flex;width: 25%; min-height: auto;flex-direction: column;align-items: center;position;}
 .box1{flex-direction: row;background: darkslateblue;width: 25%;}

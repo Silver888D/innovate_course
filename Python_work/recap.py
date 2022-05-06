@@ -148,11 +148,14 @@ import random
 
 alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 
-for i in alphabet:
-    print (i)
+# for i in alphabet:
+#     print (i)
 
 rand_num = (int)(input("pick a number...."))
 
-def rand_letter():
+
+if rand_num is int:
     print(alphabet[rand_num])
-rand_letter()
+else:
+    print(f"lost your carer? {input} isn't a number")
+
