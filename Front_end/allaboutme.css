@@ -7,7 +7,7 @@ a:visited{color: white;}
 a:active{color: white;}
 a:hover{color: blue;}
 footer{text-align: center; background-color: gray;}
-.div1{color: goldenrod;}
+.div1{color: goldenrod; background: darkslateblue; display: flex;width: 25%; min-height: auto;flex-direction: column;align-items: center}
 .darkness{color: darkred;}
 img{height: 25%;width: 25%;margin: 10%;}
 #Section2{color: darkslateblue;margin: 5%;}
@@ -16,4 +16,7 @@ ul{list-style-type: square;}
 #footerc>a{color: black;}
 #footerc>a:hover{color: blue;}
 h3{color: black;text-align: center;}
-
+.container{display: flex;width:auto
+}
+.div2{color: goldenrod; background: darkslateblue; display: flex;width: 25%; min-height: auto;flex-direction: column;align-items: center;position;}
+.box1{flex-direction: row;background: darkslateblue;width: 25%;}
