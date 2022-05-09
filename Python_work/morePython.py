@@ -99,16 +99,37 @@
 #     else:
 #         print("Please add fruit")
 #         nums = input
-alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
-print (alphabet)
-rand_num = (int)(input("pick a number.... to pick a letter...."))
-
-def activity():
-    if input == str:
-        print("that's not a number")
-    else:
-        print(alphabet[rand_num])
-    
 
 
-activity()
+
+# alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+# print (alphabet)
+
+
+#     rand_num = (input("pick a number.... to pick a letter...."))
+#     rand_num == int
+#     if rand_num <26:
+#         print(alphabet[rand_num])
+#     elif rand_num >= 26:
+#         print("Number too high")
+#     else:
+#         print("not a number, try again")
+
+
+# ## activity 1
+nums = [1,2,3,4,5,6,7,8,9,10]
+answer1 = input("pick a number....")
+def gen_num():
+    global answer1
+    try:
+        if int(answer1) in nums:
+            print(f"this number {answer1} is in the list")
+        elif int(answer1) not in nums:
+            print("Not in list, try again")
+            answer1 = input("pick a number....")
+            gen_num()
+    except:
+        print("Not a number")
+        answer1 = input("pick a number....")
+        gen_num()
+gen_num()
