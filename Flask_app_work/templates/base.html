@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css')}}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+</head>
+<body>
+  
+    <nav>
+        <ul>
+            <a href="{{ url_for('my_view.home')}}"><li>Home</li></a>
+            <a href="{{ url_for('my_view.contact')}}"><li>Contact</li></a>
+            <a href="{{ url_for('my_view.about')}}"><li>About</li></a>
+        </ul>
+    </nav>    
+    <h1>This is the main page</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, sunt ab? Earum debitis maiores, labore deserunt animi officiis saepe praesentium sunt explicabo necessitatibus magni maxime beatae numquam nam temporibus sapiente sed nisi consectetur odio placeat blanditiis sequi quae molestiae. Porro, neque soluta quidem incidunt pariatur dolorem, accusamus ipsam dolores praesentium omnis corrupti sed aperiam cumque inventore ea hic adipisci error laudantium quis quibusdam non iusto ab, maiores corporis! Non ad incidunt quidem accusantium, delectus modi? Nihil amet aspernatur iusto nisi necessitatibus inventore eum sunt quo, veniam autem tenetur facere saepe corrupti praesentium reiciendis illum neque nemo quibusdam dignissimos? Deserunt vitae, dolore ipsa deleniti ex ducimus similique, laborum, perspiciatis nobis nesciunt tenetur? Obcaecati in repellat itaque corporis assumenda animi cupiditate sint mollitia harum quam sunt tempora doloribus temporibus, quibusdam explicabo, suscipit iusto ea similique accusantium vitae beatae. Tempore fugit illo tempora voluptas maxime, itaque minima officia dolorem inventore animi, quis nostrum.</p>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>

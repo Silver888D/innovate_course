@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>This is the about page</h1>
+<h3>These are my favourite songs</h3>
+<p>{{ songs }}</p>
+
+
+<form action="/about" method ="post" name="add_song">
+    <input type="text" name="add_song" id ="song_add" placeholder="add!">
+    <button type="submit" style="display :none;">Submit</button>
+</form>
+
+<form action="/about" method ="post" name="delete_song">
+    <input type="text" name="delete_song" id ="song_delete" placeholder="remove!">
+    <button type="submit" style="display :none;">Delete</button>
+</form>
+
+
+{% endblock %}
+
