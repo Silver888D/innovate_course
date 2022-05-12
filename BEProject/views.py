@@ -19,6 +19,11 @@ def about():
 def admin():
     return render_template("admin.html")
 
+@my_view.route("/example")
+def example():
+    return render_template("example.html")
+
+
 @my_view.route("/home",)
 def home_redirect():
     return redirect(url_for("my_view.index"))
