@@ -13,3 +13,7 @@ function mOver(obj) {obj.innerHTML = "<br> HELLO"}
 function mOut(obj) {obj.innerHTML = ""}
 
 function sendAlert() {alert(location.hostname);}
+
+function darkMode() {document.getElementById("darkmode");
+let element = document.body; localStorage.setItem ;element.classList.toggle("dark-mode");}
+

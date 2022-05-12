@@ -40,3 +40,5 @@ button {font-family: gilroyExtraBold;font-size: 14px;}
 .example-button:active {background-color: rgba(245, 179, 47, 1);box-shadow: 0 2px rgba(39, 78, 155, 1);transform: translateY(2px);}
 
 .colour-box {border-radius: 25px;background-color: rgba(245, 179, 47, 1);border-color: #000;border-style: solid;height: 60px;width: 60px;text-align: center;}
+
+.dark-mode {background-color: #000;}
