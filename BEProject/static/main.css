@@ -41,4 +41,6 @@ button {font-family: gilroyExtraBold;font-size: 14px;}
 
 .colour-box {border-radius: 25px;background-color: rgba(245, 179, 47, 1);border-color: #000;border-style: solid;height: 60px;width: 60px;text-align: center;}
 
-.dark-mode {background-color: #000;}
+.dark-mode {background-color: #000; color: aliceblue;}
+
+.dark-modeb {background-color: darkgray;color: antiquewhite;}

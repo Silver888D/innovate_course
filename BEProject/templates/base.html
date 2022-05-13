@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Events</title>
 </head>
-<body onload="checkCookies()"  id = "darkmode">
+<body onload="stateCheck()">
     <div class="flex-container-h">
     <div>
     <h1>JavaScript Events</h1>
@@ -24,7 +24,7 @@
         </ul>
     </nav>    
 
-    <script src ="{{ url_for('static',filename='java.js')}}"></script>
+<script src ="{{ url_for('static',filename='java.js')}}"></script>
     {% block content %}
     {% endblock %}
     

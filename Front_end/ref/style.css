@@ -1,0 +1,21 @@
+body {background-color: turquoise;}
+
+.button1{ background-color: bisque; color: rgb(0, 174, 49); padding: 5%; border: 2px solid darkmagenta;}
+
+.button2{background-color: black; color: aliceblue; padding: 5%; border: 20px solid blue; transition-duration: 0.5s;}
+
+.button2:hover{background-color: aliceblue; color: black; padding: 5%; border: 20px solid green}
+
+.button3{background-color: black; color: aliceblue; padding: 5%; border: 20px solid blue; transition-duration: 0.5s; box-shadow: 2px 2px darkblue ; cursor: pointer;  }
+
+.button3:hover{background-color: aliceblue; color: black; padding: 5%; border: 20px solid green;box-shadow: 2px 0px darkgreen}
+
+.button3:active{ transform: translateY(2px);background-color: gray; color: black; padding: 5%; border: 20px solid green;box-shadow: none}
+
+.button4{background-color: black; color: aliceblue; padding: 5%; border: 20px solid blue; transition-duration: 0.5s; box-shadow: 2px 2px darkblue ; cursor: pointer;  }
+
+.button4:hover{background-color: aliceblue; color: black; padding: 5%; border: 20px solid red;box-shadow: 2px 0px darkred;opacity: .3; cursor: not-allowed;}
+
+.button4:active{ transform: translateY(2px);background-color: gray; color: black; padding: 5%; border: 20px solid red;box-shadow: none; will-change: text("no Stock");}
+
+.bg-light{background-color: turquoise !important;}

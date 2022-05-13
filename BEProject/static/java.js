@@ -14,6 +14,20 @@ function mOut(obj) {obj.innerHTML = ""}
 
 function sendAlert() {alert(location.hostname);}
 
-function darkMode() {document.getElementById("darkmode");
-let element = document.body; localStorage.setItem ;element.classList.toggle("dark-mode");}
+function darkMode() {let element = document.body; 
+    let mainBox = document.getElementsByClassName("main-box");
+    let mainText = document.getElementsByClassName("main-text");
+    let state = localStorage.getItem("state");
+    element.classList.toggle("dark-mode");
+    for (const box of mainBox) box.classList.toggle("dark-modeb");
+    for (const box of mainText) box.classList.toggle("dark-modeb");
+    if (state !== "dark"){localStorage.setItem("state","dark");}
+        else {localStorage.setItem("state","light");}}
 
+function stateCheck() {let element = document.body; 
+    let mainBox = document.getElementsByClassName("main-box");
+    let mainText = document.getElementsByClassName("main-text");
+    let state = localStorage.getItem("state");
+    if (state == "light"){element.classList.toggle("dark-mode");
+    for (const box of mainBox) box.classList.toggle("dark-modeb");
+    for (const box of mainText) box.classList.toggle("dark-modeb");}}
